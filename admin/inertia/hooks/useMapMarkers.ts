@@ -4,7 +4,7 @@ import api from '~/lib/api'
 export const PIN_COLORS = [
   { id: 'orange', label: 'Orange', hex: '#a84a12' },
   { id: 'red', label: 'Red', hex: '#994444' },
-  { id: 'green', label: 'Green', hex: '#424420' },
+  { id: 'green', label: 'Green', hex: '#6fa06f' },
   { id: 'blue', label: 'Blue', hex: '#2563eb' },
   { id: 'purple', label: 'Purple', hex: '#7c3aed' },
   { id: 'yellow', label: 'Yellow', hex: '#ca8a04' },

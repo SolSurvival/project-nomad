@@ -26,7 +26,7 @@ if (!window.crypto?.randomUUID) {
 }
 
 createInertiaApp({
-  progress: { color: '#424420' },
+  progress: { color: '#f5871f' },
 
   title: (title) => `${title} - ${appName}`,
 

@@ -112,8 +112,8 @@ export default function MapComponent() {
             <button
               onClick={() => { if (scaleUnit !== 'metric') toggleScaleUnit() }}
               style={{
-                background: scaleUnit === 'metric' ? '#424420' : 'white',
-                color: scaleUnit === 'metric' ? 'white' : '#666',
+                background: scaleUnit === 'metric' ? '#3a3f47' : '#2b2f36',
+                color: scaleUnit === 'metric' ? 'white' : '#9aa0a8',
                 border: 'none',
                 padding: '4px 8px',
                 cursor: 'pointer',
@@ -124,8 +124,8 @@ export default function MapComponent() {
             <button
               onClick={() => { if (scaleUnit !== 'imperial') toggleScaleUnit() }}
               style={{
-                background: scaleUnit === 'imperial' ? '#424420' : 'white',
-                color: scaleUnit === 'imperial' ? 'white' : '#666',
+                background: scaleUnit === 'imperial' ? '#3a3f47' : '#2b2f36',
+                color: scaleUnit === 'imperial' ? 'white' : '#9aa0a8',
                 border: 'none',
                 padding: '4px 8px',
                 cursor: 'pointer',
@@ -221,7 +221,7 @@ export default function MapComponent() {
                 <button
                   onClick={handleSaveMarker}
                   disabled={!markerName.trim()}
-                  className="text-xs bg-[#424420] text-white rounded px-2.5 py-1 hover:bg-[#525530] disabled:opacity-40 transition-colors"
+                  className="text-xs bg-[#3a3f47] text-white rounded px-2.5 py-1 hover:bg-[#31363f] disabled:opacity-40 transition-colors"
                 >
                   Save
                 </button>
