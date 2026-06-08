@@ -26,7 +26,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         onClick={() => router.visit('/home')}
       >
         <img src="/project_nomad_logo.webp" alt="Project Nomad Logo" className="h-40 w-40" />
-        <h1 className="text-5xl font-bold text-desert-green">Command Center</h1>
+        <h1 className="text-5xl font-bold text-desert-green">Prometheus</h1>
       </div>
       <hr className={
         classNames(

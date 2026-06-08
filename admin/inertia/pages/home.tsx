@@ -132,8 +132,8 @@ export default function Home(props: {
   items.sort((a, b) => a.displayOrder - b.displayOrder)
 
   return (
-    <AppLayout>
-      <Head title="Command Center" />
+    <AppLayout> 
+          <Head title="Prometheus Command Center" />
       {
         updateInfo?.updateAvailable && (
           <div className='flex justify-center items-center p-4 w-full'>
