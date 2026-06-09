@@ -11,9 +11,9 @@
   --color-desert-green-light: #3a3f47;
   --color-desert-green-lighter: #2b2f36;
 
-  --color-desert-orange-dark: #d96f12;
-  --color-desert-orange: #f5871f;
-  --color-desert-orange-light: #ffa033;
+  --color-desert-orange-dark: #e85d04;
+  --color-desert-orange: #f48c06;
+  --color-desert-orange-light: #ffba08;
   --color-desert-orange-lighter: #f9d423;
 
   --color-desert-tan-dark: #c7c9cc;
@@ -45,8 +45,8 @@
   --color-border-default: #3a3f47;
   --color-border-subtle: #31363f;
 
-  --color-btn-green-hover: #ffa033;
-  --color-btn-green-active: #d96f12;
+  --color-btn-green-hover: #ffba08;
+  --color-btn-green-active: #e85d04;
 }
 
 body {
@@ -66,9 +66,9 @@ body {
   --color-desert-green-light: #3a3f47;
   --color-desert-green-lighter: #2b2f36;
 
-  --color-desert-orange-dark: #d96f12;
-  --color-desert-orange: #f5871f;
-  --color-desert-orange-light: #ffa033;
+  --color-desert-orange-dark: #e85d04;
+  --color-desert-orange: #f48c06;
+  --color-desert-orange-light: #ffba08;
   --color-desert-orange-lighter: #f9d423;
 
   --color-desert-tan-dark: #c7c9cc;
@@ -100,8 +100,8 @@ body {
   --color-border-default: #3a3f47;
   --color-border-subtle: #31363f;
 
-  --color-btn-green-hover: #ffa033;
-  --color-btn-green-active: #d96f12;
+  --color-btn-green-hover: #ffba08;
+  --color-btn-green-active: #e85d04;
 
   color-scheme: dark;
 }
